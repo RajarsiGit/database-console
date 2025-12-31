@@ -22,7 +22,7 @@
   "dependencies": {
     "@monaco-editor/react": "^4.6.0",
     "antd": "^5.12.5",
-    "electron-store": "^11.0.2",
+    "electron-store": "8.2.0",
     "pg": "^8.11.3",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
@@ -51,7 +51,7 @@
       "target": [
         "nsis"
       ],
-      "icon": "./assets/.png",
+      "icon": "./assets/database.png",
       "signAndEditExecutable": false
     }
   }
