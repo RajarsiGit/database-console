@@ -82,7 +82,8 @@ function getPool(serverId, database = null) {
 }
 
 async function getDatabases(serverId) {
-  const pool = getPool(serverId);
+  const database = "postgres"; 
+  const pool = getPool(serverId, database);
 
   try {
     const result = await pool.query(
